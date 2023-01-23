@@ -4,6 +4,8 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiApp1", "MauiApp1\MauiApp1.csproj", "{4553006D-F37D-462F-B656-23E17E662F96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary1", "RazorClassLibrary1\RazorClassLibrary1.csproj", "{B3BE37B6-5B4E-4A53-8284-E2BBED562D59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,12 +18,16 @@ Global
 		{4553006D-F37D-462F-B656-23E17E662F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4553006D-F37D-462F-B656-23E17E662F96}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4553006D-F37D-462F-B656-23E17E662F96}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3BE37B6-5B4E-4A53-8284-E2BBED562D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3BE37B6-5B4E-4A53-8284-E2BBED562D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3BE37B6-5B4E-4A53-8284-E2BBED562D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3BE37B6-5B4E-4A53-8284-E2BBED562D59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 		SolutionGuid = {36FB5610-F985-420B-B2BF-A4211D93F141}
+		        SolutionGuid = {61F7FB11-1E47-470C-91E2-47F8143E1572}
 	EndGlobalSection
 EndGlobal
