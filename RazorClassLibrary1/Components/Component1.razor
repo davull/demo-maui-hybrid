@@ -1,7 +1,15 @@
 ﻿<h3>Component1</h3>
 
-<p>OS Version: @OsVersion</p>
+<p class="osVersion monospace">
+    OS Version: @OsVersion
+</p>
+
+<p class="monospace">
+    User name: @UserName
+</p>
 
 @code {
-    public string OsVersion => System.Environment.OSVersion.VersionString;
+    public string OsVersion => Environment.OSVersion.VersionString;
+
+    public string UserName => Environment.UserName;
 }
